@@ -11,3 +11,5 @@ pipenv install  # Esto instalará las dependencias del Pipfile
 # Ejecuta las tareas de Django
 pipenv run python manage.py collectstatic --noinput
 pipenv run python manage.py migrate
+
+#Final

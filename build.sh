@@ -2,6 +2,10 @@
 
 set -o errexit
 
+# Desinstalar Poetry
+pip uninstall -y poetry
+
+
 # Si estás usando un Pipfile, instala así:
 pipenv install  # Esto instalará las dependencias del Pipfile
 
